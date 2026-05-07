@@ -1,0 +1,15 @@
+Assunto: Atualização obrigatória de segurança bancária
+
+Caro cliente,
+
+Durante uma verificação automática identificamos inconsistências temporárias em sua conta bancária.
+
+Para evitar bloqueio parcial de serviços como PIX, transferências e pagamentos online, será necessário validar suas informações de segurança.
+
+Realize a confirmação através do link abaixo:
+
+http://central-bancaria-verificacao.xyz/login
+
+A não regularização poderá causar suspensão temporária do acesso digital.
+
+Banco Central de Atendimento
