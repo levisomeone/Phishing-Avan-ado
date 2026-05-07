@@ -1,143 +1,89 @@
+<p align="center">
+  <pre>
+    🔴 🟩 🟩
+    🟩 🟩 
+    🟩 🟩 🟩
+    🟩 🟩
+    ╔════════════════════════════════════════════════╗
+    ║  I N S T I T U T O   F E D E R A L  ACOPIARA   ║
+    ╚════════════════════════════════════════════════╝
+  </pre>
 
-Scanner de Phishing Inteligente
+  <table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Java-24%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/Packages-Maven%20%7C%20JAR-blue?style=for-the-badge&logo=apachemaven&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/System-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Pull%20Requests-0-blue?style=for-the-badge&logo=github&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/Coverity%20Scan-Passing-brightgreen?style=for-the-badge"></td>
+  </tr>
+</table>
 
-Scanner de Phishing Inteligente é um sistema desenvolvido em Java para detectar possíveis mensagens fraudulentas (phishing) através da análise textual de e-mails e arquivos .txt.
+# Scanner de Phishing Inteligente
 
-O projeto combina:
+Scanner de Phishing Inteligente é um sistema desenvolvido em Java para detectar possíveis mensagens fraudulentas (phishing) através da análise textual de e-mails e arquivos `.txt`.
 
-análise por palavras-chave
-normalização textual avançada
-heurísticas de comportamento suspeito
+O projeto combina técnicas de:
+- análise por palavras-chave
+- normalização textual avançada
+- heurísticas de comportamento suspeito
 
-permitindo detectar tentativas de phishing mesmo quando o texto utiliza técnicas de disfarce como:
+permitindo identificar tentativas de phishing mesmo quando o texto tenta ocultar informações através de:
+- leetspeak
+- caracteres especiais
+- acentuação
+- excesso de caixa alta
+- links suspeitos
+- mistura de símbolos
 
-leetspeak
-caracteres especiais
-caixa alta excessiva
-links suspeitos
-mistura de símbolos
-Objetivos do Projeto
-Detectar palavras e frases comuns em ataques de phishing
-Identificar padrões suspeitos em mensagens
-Neutralizar técnicas de evasão textual
-Detectar links potencialmente perigosos
-Calcular pontuação de risco automaticamente
-Classificar mensagens como:
-Baixo risco
-Possível phishing
-Alto risco de phishing
-Aplicar conceitos de Programação Orientada a Objetos
-Simular mecanismos utilizados por detectores reais de e-mail
-Features
-Banco de palavras suspeitas utilizando HashMap
-Normalização textual avançada
-remoção de acentos
-conversão para minúsculas
-remoção de símbolos
-detecção de leetspeak
-Sistema de pontuação por peso
-Detecção de frases completas e palavras individuais
-Leitura de arquivos .txt
-Relatório formatado com printf
-Classificação automática de risco
-Detector heurístico avançado
-links suspeitos
-excesso de caixa alta
-muitos símbolos especiais
-linguagem de urgência
-leetspeak
-Separação de responsabilidades em classes
-Compatível com boas práticas de POO
-Tecnologias Utilizadas
-Java
-IntelliJ IDEA
-HashMap
-Regex
-Normalizer API
-Programação Orientada a Objetos
-Estrutura do Projeto
-📁 src/
-│
-├── 🟦 Main.java
-├── 🔵 BancoPhishing.java
-├── 🔵 NormalizarTexto.java
-└── 🔴 DetectorAvancado.java
+O sistema simula mecanismos básicos utilizados em detectores reais de segurança digital e serviços modernos de e-mail.
 
-📄 email1.txt
-📄 email2.txt
-📄 email3.txt
-📄 email4.txt
-📄 email5.txt
-Como Funciona
+---
 
-O sistema realiza duas etapas principais:
+# Objetivos do Projeto
 
-1. Detector por Palavras-Chave
+- Detectar palavras e frases frequentemente utilizadas em ataques de phishing
+- Identificar padrões suspeitos em mensagens eletrônicas
+- Neutralizar técnicas de evasão textual
+- Detectar links potencialmente perigosos
+- Aplicar análise heurística em mensagens
+- Calcular automaticamente uma pontuação de risco
+- Classificar mensagens como:
+  - ✔ Baixo risco
+  - ⚠ Possível phishing
+  - 🚨 Alto risco de phishing
+- Aplicar conceitos de Programação Orientada a Objetos (POO)
+- Simular funcionalidades presentes em filtros modernos de e-mail
 
-O texto do e-mail é normalizado e comparado com um banco de palavras e frases suspeitas.
+---
 
-Cada termo possui:
+# Features
 
-quantidade de ocorrências
-peso de risco
+## 🔍 Detector por Palavras-Chave
 
-A soma gera uma pontuação parcial.
+- Banco de palavras suspeitas utilizando `HashMap`
+- Detecção de palavras individuais
+- Detecção de frases completas
+- Sistema de pontuação por peso
+- Classificação automática de risco
 
-2. Detector Heurístico Avançado
+---
 
-O sistema também analisa comportamentos suspeitos como:
+## 🛡 Normalização Textual Avançada
 
-links desconhecidos
-excesso de letras maiúsculas
-muitos símbolos especiais
-linguagem de urgência
-padrões leetspeak
+O sistema realiza automaticamente:
 
-Essas características aumentam a pontuação final da análise.
+- remoção de acentos
+- conversão para letras minúsculas
+- remoção de caracteres especiais
+- normalização de espaços
+- detecção e conversão de leetspeak
 
-Exemplos Detectados
+Exemplo:
 
-O sistema consegue detectar mensagens com:
-
+```text
 CL1QU3 AQU1!!!
 s3nh4
-c0nta
 b4nco
-
-Convertendo automaticamente para:
-
-clique aqui
-senha
-conta
-banco
-Técnicas Anti-Evasão Implementadas
-
-O sistema consegue neutralizar:
-
-Leetspeak
-Caracteres especiais
-Escrita em caixa alta
-Acentuação
-Mistura de símbolos
-Tentativas de disfarce textual
-Exemplo de Saída
-==== RELATÓRIO DE PALAVRAS ====
-
-senha                    |  2 ocorrências |   6 pontos
-conta                    |  1 ocorrências |   2 pontos
-clique aqui              |  1 ocorrências |   3 pontos
-
-Total de Pontos: 11
-
-⚠️ POSSÍVEL PHISHING
-
-
-==== ANÁLISE AVANÇADA ====
-
-✔ Links suspeitos detectados
-✔ Linguagem de urgência detectada
-✔ Leetspeak detectado
-
-Pontuação Avançada: 13
-
-⚠️ ALTO RISCO DE PHISHING
